@@ -2,6 +2,12 @@ import React from "react";
 import "../assets/css/main.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import config from "../config";
+import profileImg from '../assets/profile.png';
+
+interface InfoItemProps {
+  label: string;
+  value: string | number; // Adjust according to the actual type of `value`
+}
 
 const AboutSection = () => {
   const currentYear = new Date().getFullYear();
@@ -34,7 +40,7 @@ const AboutSection = () => {
           <div className="col-lg-6 position-relative">
             <div className="about-image">
               <img
-                src="/profile.png"
+                src={profileImg}
                 alt="Profile"
                 className="img-fluid rounded-4"
                 style={{ maxWidth: "100%", height: "auto" }}
@@ -70,7 +76,7 @@ const AboutSection = () => {
   );
 };
 
-const InfoItem = ({ label, value }) => (
+const InfoItem: React.FC<InfoItemProps> = ({ label, value }) => (
   <div className="col-6">
     <div className="info-item">
       <span className="label">{label}</span>

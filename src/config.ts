@@ -161,16 +161,16 @@ const config: PortfolioConfig = {
       techStack: ["NestJS", "NextJS", "Redis", "PostgreSQL"],
     },
     {
-      title: "Dynamic Resume Generator",
+      title: "Dynamic Portfolio Generator",
       desc: "This very portfolio where users can view a dynamic, component-based resume.",
-      frontend: "https://github.com/yourname/portfolio",
+      frontend: "https://github.com/nayanabhi/portfolio",
       techStack: ["React", "Tailwind CSS", "Bootstrap"],
     },
     {
       title: "Chat Application",
       desc: "Real-time chat app supporting private and group messaging.",
-      frontend: "https://github.com/yourname/chat-app-frontend",
-      backend: "https://github.com/yourname/chat-app-backend",
+      frontend: "https://github.com/nayanabhi/chat-frontend",
+      backend: "https://github.com/nayanabhi/chat-backend",
       techStack: ["Next.js", "NestJS", "WebSocket", "REST API", "PostgreSQL"],
     },
     {

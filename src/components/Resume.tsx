@@ -1,4 +1,3 @@
-import React from "react";
 import config from "../config";
 import "../assets/css/main.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -36,7 +35,7 @@ const Resume = () => {
                 </p>
 
                 <div className="timeline">
-                  {experienceData.map((item, index) => (
+                  {experienceData.map((item) => (
                     <div
                       className="timeline-item"
                       data-aos="fade-up"
@@ -68,7 +67,7 @@ const Resume = () => {
                 </p>
 
                 <div className="timeline">
-                  {educationData.map((item, index) => (
+                  {educationData.map((item) => (
                     <div
                       className="timeline-item"
                       data-aos="fade-up"
