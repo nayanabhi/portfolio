@@ -35,7 +35,7 @@ const HeroSection = () => {
                   Explore My Projects
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1XuwHFGmuYfPWGnPtdM819DgmMNviyFyk/view"
+                  href={config.resumeLink}
                   className="btn btn-outline"
                   target="_blank"
                 >

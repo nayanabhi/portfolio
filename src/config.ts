@@ -30,6 +30,7 @@ export interface PortfolioConfig {
   description: string;
   constestParticipation: number;
   featuresIntegration: number;
+  resumeLink: string;
   careerStartYear: number;
   phone: string;
   role: string;
@@ -57,6 +58,7 @@ const config: PortfolioConfig = {
   constestParticipation: 100,
   featuresIntegration: 20,
   location: "Hyderabad",
+  resumeLink: "https://drive.google.com/file/d/1ezplKO9uFshRAydKnfhefNLV9iDYoZP0/view",
   careerStartYear: 2024,
   phone: "9815073566",
   role: "Software Engineer",
